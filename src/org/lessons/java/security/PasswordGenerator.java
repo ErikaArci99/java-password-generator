@@ -14,34 +14,34 @@ public class PasswordGenerator {
 
         // input per i dati dell`utente
 
+        Scanner input = new Scanner(System.in);
+
         // nome
-        Scanner inputName = new Scanner(System.in);
         System.out.print("Inserisci il tuo nome: ");
-        name = inputName.nextLine();
+        name = input.nextLine();
 
         // cognome
-        Scanner inputSurname = new Scanner(System.in);
         System.out.print("Inserisci il tuo cognome: ");
-        surname = inputSurname.nextLine();
+        surname = input.nextLine();
 
         // colore preferito
-        Scanner inputColor = new Scanner(System.in);
         System.out.print("Inserisci il tuo colore preferito: ");
-        favoriteColor = inputColor.nextLine();
+        favoriteColor = input.nextLine();
 
         // giorno di nascita
-        Scanner inputBirthDay = new Scanner(System.in);
         System.out.print("Inserisci il tuo giorno di nascita: ");
-        birthDay = inputBirthDay.nextInt();
+        birthDay = input.nextInt();
 
         // mese di nascita
-        Scanner inputBirthMonth = new Scanner(System.in);
         System.out.print("Inserisci il tuo mese di nascita: ");
-        birthMonth = inputBirthMonth.nextInt();
+        birthMonth = input.nextInt();
 
         // anno di nascita
-        Scanner inputBirthYear = new Scanner(System.in);
         System.out.print("Inserisci il tuo anno di nascita: ");
-        birthYear = inputBirthYear.nextInt();
+        birthYear = input.nextInt();
+
+        // chiusura input
+        input.close();
+
     }
 }
