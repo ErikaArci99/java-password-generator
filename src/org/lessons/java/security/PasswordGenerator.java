@@ -43,5 +43,7 @@ public class PasswordGenerator {
         // chiusura input
         input.close();
 
+        // generazione della password
+        String password = name + "-" + surname + "-" + favoriteColor + "-" + (birthDay + birthMonth + birthYear);
     }
 }
