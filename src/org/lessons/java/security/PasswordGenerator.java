@@ -39,5 +39,9 @@ public class PasswordGenerator {
         System.out.print("Inserisci il tuo mese di nascita: ");
         birthMonth = inputBirthMonth.nextInt();
 
+        // anno di nascita
+        Scanner inputBirthYear = new Scanner(System.in);
+        System.out.print("Inserisci il tuo anno di nascita: ");
+        birthYear = inputBirthYear.nextInt();
     }
 }
