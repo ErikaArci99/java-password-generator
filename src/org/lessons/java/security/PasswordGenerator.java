@@ -24,5 +24,9 @@ public class PasswordGenerator {
         System.out.print("Inserisci il tuo cognome: ");
         surname = inputSurname.nextLine();
 
+        // colore preferito
+        Scanner inputColor = new Scanner(System.in);
+        System.out.print("Inserisci il tuo colore preferito: ");
+        favoriteColor = inputColor.nextLine();
     }
 }
