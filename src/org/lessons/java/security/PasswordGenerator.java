@@ -11,5 +11,12 @@ public class PasswordGenerator {
         int birthDay;
         int birthMonth;
         int birthYear;
+
+        // input per i dati dell`utente
+
+        // nome
+        Scanner inputName = new Scanner(System.in);
+        System.out.print("Inserisci il tuo nome: ");
+        name = inputName.nextLine();
     }
 }
