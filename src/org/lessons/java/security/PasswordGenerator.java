@@ -18,5 +18,11 @@ public class PasswordGenerator {
         Scanner inputName = new Scanner(System.in);
         System.out.print("Inserisci il tuo nome: ");
         name = inputName.nextLine();
+
+        // cognome
+        Scanner inputSurname = new Scanner(System.in);
+        System.out.print("Inserisci il tuo cognome: ");
+        surname = inputSurname.nextLine();
+
     }
 }
