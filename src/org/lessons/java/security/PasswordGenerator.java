@@ -28,5 +28,10 @@ public class PasswordGenerator {
         Scanner inputColor = new Scanner(System.in);
         System.out.print("Inserisci il tuo colore preferito: ");
         favoriteColor = inputColor.nextLine();
+
+        // giorno di nascita
+        Scanner inputBirthDay = new Scanner(System.in);
+        System.out.print("Inserisci il tuo giorno di nascita: ");
+        birthDay = inputBirthDay.nextInt();
     }
 }
